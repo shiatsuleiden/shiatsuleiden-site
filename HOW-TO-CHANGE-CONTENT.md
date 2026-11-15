@@ -4,7 +4,7 @@ Een korte handleiding voor als je vergeten bent hoe het werkt.
 
 ## Het idee in één alinea
 
-Alle bestanden van de website staan op GitHub, in de repository **shiatsuleiden-site**. Zodra daar iets verandert, bouwt Netlify de site automatisch opnieuw en zet hem online. Dat duurt ongeveer 1 minuut. Er komt geen FTP of upload bij kijken: je past een bestand aan op GitHub en de site werkt zichzelf bij.
+Alle bestanden van de website staan op GitHub, in de private repository **github.com/shiatsuleiden/shiatsuleiden-site** (organisatie `shiatsuleiden`, beheerd door keesjalink). Zodra daar iets verandert, bouwt Netlify de site automatisch opnieuw en zet hem online. Dat duurt ongeveer 1 minuut. Er komt geen FTP of upload bij kijken: je past een bestand aan op GitHub en de site werkt zichzelf bij.
 
 De makkelijkste manier is **rechtstreeks op de GitHub-website bewerken**. Daarvoor hoef je niets te installeren.
 
@@ -12,7 +12,7 @@ De makkelijkste manier is **rechtstreeks op de GitHub-website bewerken**. Daarvo
 
 ## A. Tekst op een bestaande pagina aanpassen (meest voorkomend)
 
-1. Ga naar de repository **shiatsuleiden-site** op github.com en log in.
+1. Ga naar **https://github.com/shiatsuleiden/shiatsuleiden-site** en log in.
 2. Klik op de map **`src`** en daarna op **`page-content`**.
 3. Elke pagina heeft daar een eigen bestand:
 
