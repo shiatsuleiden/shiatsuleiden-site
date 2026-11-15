@@ -1,0 +1,2 @@
+# Downloads and images must stay byte-identical to the originals (no CRLF/LF conversion).
+public/** -text

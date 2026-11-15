@@ -1,0 +1,8 @@
+---- robots.txt  (contents follow)
+User-agent: * 
+Allow: /
+Disallow: /js/
+
+User-Agent: MediaPartners-Google
+Allow: /
+---- end (Contents above)

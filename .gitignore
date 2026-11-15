@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.astro/
+.netlify/
+# raw copy of the old site (reference only, not deployed)
+_archive-original/
+_screens/

@@ -1,0 +1,76 @@
+/* Mobile layout for shiatsuleiden.nl
+ * The desktop design (stylesheet.css, the original) is a fixed 753px table.
+ * On screens narrower than 760px the table cells are stacked instead:
+ *   header image + menu  ->  left column  ->  middle column  ->  tariffs  ->  footer
+ * On desktop this file only hides the mobile header, so desktop looks exactly like the original.
+ */
+#m-head { display: none; }
+
+@media (max-width: 760px) {
+	body { background: #065883; }
+
+	/* mobile header: the original header slices as one image + a readable menu */
+	#m-head { display: block; }
+	#m-head img { display: block; width: 100%; height: auto; }
+	#m-head nav {
+		background: #1f6990;
+		border-bottom: 2px solid #ffffff;
+		padding: 8px 12px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 13px;
+		font-weight: bold;
+		line-height: 2;
+		text-align: center;
+	}
+	#m-head nav a, #m-head nav span { white-space: nowrap; padding: 0 5px; }
+	#m-head nav span { color: #FF6400; }
+
+	/* the table becomes one column: every cell is a block, in a chosen order */
+	#Tabel_01 { display: block; width: 100%; height: auto; }
+	#Tabel_01 > tbody { display: flex; flex-direction: column; }
+	#Tabel_01 tr { display: contents; }
+	#Tabel_01 td { display: block; width: auto; height: auto; background-color: #065883; }
+
+	/* hidden on mobile: desktop header cells, spacer cells, decoration and empty rows */
+	#Tabel_01 tr:nth-child(-n+2) > td,
+	#Tabel_01 .head_ond,
+	#Tabel_01 .bgr_r,
+	#Tabel_01 .sp-row,
+	#Tabel_01 td:has(> img[src$="spacer.gif"]:only-child),
+	#Tabel_01 tr:nth-child(4) > td:not([class]),
+	#Tabel_01 tr:nth-child(6) > td:not([class]),
+	#Tabel_01 tr:nth-child(n+7) > td:not(.baronder):not(.txt-footer) { display: none; }
+
+	/* order: left title, left text (2 parts), middle title, middle text, tariffs, footer */
+	#Tabel_01 tr:nth-child(4) > td:nth-child(1) { order: 1; }
+	#Tabel_01 tr:nth-child(5) > td:nth-child(1) { order: 2; }
+	#Tabel_01 tr:nth-child(6) > td:nth-child(1) { order: 3; }
+	#Tabel_01 tr:nth-child(4) > td:nth-child(2) { order: 4; }
+	#Tabel_01 tr:nth-child(5) > td:nth-child(2) { order: 5; }
+	#Tabel_01 .navm_r { order: 6; }
+	#Tabel_01 .baronder { order: 8; }
+	#Tabel_01 .txt-footer { order: 9; }
+
+	/* section titles (orange initial images, 22px high) */
+	#Tabel_01 tr:nth-child(4) > td { height: 22px; padding: 0; background-position: left top; }
+	#Tabel_01 tr:nth-child(4) > td:nth-child(2) { background-color: #1f6990; margin-top: 10px; }
+	#Tabel_01 .imgriet { background-color: #065883; }
+
+	/* middle column */
+	#Tabel_01 tr:nth-child(5) > td:nth-child(2) {
+		background: #1f6990;
+		padding: 10px 20px 16px;
+	}
+
+	/* tariffs block */
+	#Tabel_01 .navm_r { background: #4482A2; padding: 16px 20px 20px; }
+	#Tabel_01 .navm_r p[align] { text-align: left; }
+	#Tabel_01 .navm_r:not(:has(p)) { display: none; }
+
+	/* images never wider than the screen */
+	#Tabel_01 img { max-width: 100%; height: auto; }
+
+	/* footer */
+	#Tabel_01 .baronder { background: #ffffff; height: 2px; }
+	#Tabel_01 .txt-footer { background: #1f6990; padding: 10px 12px; line-height: 1.8; height: auto; }
+}

@@ -1,0 +1,289 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-repeat: repeat;
+	background-position: center top;
+	background-image: url(afbeeldingen/bg.gif);
+	height: 100%;
+}
+body,td,tr {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+.txt-footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #DEDEDE;
+	padding: 0px 24px 5px;
+	background-image: url(afbeeldingen/shiatsu_19.gif);
+	height: 37px;
+	text-align: center;
+}
+a:link {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+a:visited {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+a:hover {
+	color: #FF6400;
+	text-decoration: none;
+}
+a:active {
+	color: #FF6400;
+	text-decoration: underline;
+}
+.bgr_l {
+	background-repeat: repeat;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	text-align: left;
+	vertical-align: top;
+}
+.logo-but { padding: 5px 20px;
+}
+.bgr_l2 {
+	text-align: left;
+	vertical-align: top;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	height: 100%;
+}
+.bgr_l2-L {
+	text-align: left;
+	vertical-align: top;
+	padding-top: 0px;
+	padding-right: 20px;
+	padding-left: 0px;
+	font-weight: normal;
+	letter-spacing: 0.05em;
+}
+.tarief {
+	text-transform: uppercase;
+	color: #FF6600;
+	font-weight: bold;
+	margin-top: 22px;
+	padding-top: 22px;
+}
+.bgr_r {
+	vertical-align: bottom;
+	background-repeat: no-repeat;
+	background-image: url(afbeeldingen/shiatsu_12.gif);
+	height: 165px;
+	background-position: bottom;
+	background-color: #4482A2;
+}
+.bgr_r2 {
+	background-color: #4482A2;
+}
+.crssn {
+	background-image: url(afbeeldingen/shiatsu_10.gif);
+	background-repeat: no-repeat;
+	height: 340px;
+	background-position: center center;
+}
+.tophl {
+	background-image: url(afbeeldingen/shiatsu_02.gif);
+	background-repeat: no-repeat;
+}
+.bgr_r3 {
+	background-repeat: no-repeat;
+	background-color: #4482A2;
+}
+.cntct {
+	text-align: left;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	background-image: url(afbeeldingen/bgr_mid.gif);
+}
+.contact {
+	background-repeat: no-repeat;
+	background-image: url(afbeeldingen/shiatsu_16.gif);
+	height: 25px;
+}
+.contact-left {
+	background-image: url("afbeeldingen/contact-left.gif");
+	background-repeat: no-repeat;
+	height: 25px;
+	margin-left: -20px;
+	}
+.curs {
+	background-image: url(afbeeldingen/shiatsu_08.gif);
+	background-repeat: no-repeat;
+	text-align: right;
+	height: 22px;
+	padding-right: 16px;
+}
+.konst-buteyko {
+	background-image: url(afbeeldingen/konstantin-b.gif);
+	background-repeat: no-repeat;
+	text-align: right;
+	height: 22px;
+	padding-right: 16px;
+}
+.riv {
+	background-image: url(afbeeldingen/rivier_t.gif);
+	background-repeat: no-repeat;
+	height: 22px;
+}
+.riv_pic {
+	background-repeat: no-repeat;
+	background-image: url(afbeeldingen/rivier.jpg);
+	background-position: center center;
+	height: 340px;
+}
+.doin_t {
+	background-image: url(afbeeldingen/doin_t.gif);
+	background-repeat: no-repeat;
+	background-color: #1F6990;
+}
+.doin_bgr {
+	background-image: url(afbeeldingen/bgr_mid.gif);
+	vertical-align: top;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-left: 10px;
+	height: 100%;
+}
+.but {
+background-image: url(afbeeldingen/bgr_mid.gif);
+padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	text-align: left;
+	vertical-align: top;
+	}
+.sh_logo {
+	height: 79px;
+	background-image: url(afbeeldingen/shiatsu_01.gif);
+}
+.slogan {
+	background-image: url(afbeeldingen/shiatsu_03.gif);
+	background-repeat: no-repeat;
+	height: 31px;
+}
+.head_ond {
+	background-image: url(afbeeldingen/shiatsu_05.gif);
+	background-repeat: no-repeat;
+	height: 66px;
+}
+.navmenu {
+	background-image: url(afbeeldingen/shiatsu_04.gif);
+	background-repeat: no-repeat;
+	height: 31px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+.navm_r {
+	background-image: url(afbeeldingen/shiatsu_06.gif);
+	background-repeat: no-repeat;
+	height: 143px;
+	background-color: #4482A2;
+	vertical-align: top;
+	padding-top: 20px;
+	padding-left: 22px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: 0.05em;
+}
+.curs_cel {
+	background-image: url(afbeeldingen/cursussen.gif);
+	height: 22px;
+	background-repeat: no-repeat;
+}
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF6400;
+}
+div {
+	padding: 5px;
+	text-align: center;
+}
+.intro {
+	background-image: url(afbeeldingen/shiatsu_07.gif);
+	background-repeat: no-repeat;
+	height: 22px;
+}
+.buteyko {background-image: url(afbeeldingen/buteyko.gif);
+	background-repeat: no-repeat;
+	height: 22px;
+}
+.imgriet {
+	background-image: url(afbeeldingen/shiatsu_13.gif);
+	background-repeat: no-repeat;
+	height: 21px;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+.sh_behand {
+	background-image: url(afbeeldingen/sh_behand.gif);
+	background-repeat: no-repeat;
+	height: 22px;
+}
+.cmid {
+	background-image: url(afbeeldingen/contact_mid.gif);
+	background-repeat: no-repeat;
+	height: 22px;
+}
+.c_info {
+	background-image: url(afbeeldingen/c_info.gif);
+	background-repeat: no-repeat;
+	height: 22px;
+}
+.links {
+	background-image: url(afbeeldingen/links.gif);
+	background-repeat: no-repeat;
+	text-align: left;
+	vertical-align: top;
+	height: 21px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+.links-contact {
+	background-image: url(afbeeldingen/links2.gif);
+	background-repeat: no-repeat;
+	height: 22px;
+}
+
+.baronder {
+	background-image: url(afbeeldingen/shiatsu_18.gif);
+	background-repeat: no-repeat;
+	height: 6px;
+}
+.td-leeg {
+	background-image: url(afbeeldingen/doin_t_reserve.gif);
+	background-repeat: no-repeat;
+	height: 22px;
+	padding-left: 10px;
+}
+hr.dark{
+	height: 1px;
+	border: 0px !important;
+	background-color: #1F6990;
+}
+hr.light{
+	height: 1px;
+	border: 0px !important;
+	background-color: #4482A2;
+}

@@ -1,0 +1,7 @@
+[
+  { "href": "index.html",            "label": "HOME",        "footer": "Home" },
+  { "href": "behandeling.html",      "label": "BEHANDELING", "footer": "Behandeling" },
+  { "href": "buteyko-therapie.html", "label": "BUTEYKO",     "footer": "Buteyko" },
+  { "href": "iemt.html",             "label": "IEMT",        "footer": "Iemt" },
+  { "href": "contact.html",          "label": "CONTACT",     "footer": "Contact" }
+]
